@@ -133,7 +133,7 @@ export class MapScene {
   }
 
   private getConfig(container: HTMLDivElement) {
-    const center = [-5.97664, 37.37453] as [number, number];
+    const center = [-4.4234528665434345, 36.71788357187265] as [number, number];
     this.center = { lng: center[0], lat: center[1] };
     return {
       container,
